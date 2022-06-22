@@ -170,7 +170,7 @@ export default function Home() {
         <div>
           <h1 className={styles.title}>Welcome to Cool Dawgs NFT!</h1>
           <div className={styles.description}>
-            This is an NFT Collection created woth traits, from layers, on the Polygon Matic Blockchain.
+            This is an NFT Collection created with traits, from layers, on the Polygon Matic Blockchain.
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
