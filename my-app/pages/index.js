@@ -162,27 +162,27 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>LW3Punks</title>
-        <meta name="description" content="LW3Punks-Dapp" />
+        <title>Cool Dawgs NFT</title>
+        <meta name="description" content="Cool Dawgs NFT" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to LW3Punks!</h1>
+          <h1 className={styles.title}>Welcome to Cool Dawgs NFT!</h1>
           <div className={styles.description}>
-            Its an NFT collection for LearnWeb3 students.
+            This is an NFT Collection created woth traits, from layers, on the Polygon Matic Blockchain.
           </div>
           <div className={styles.description}>
-            {tokenIdsMinted}/10 have been minted
+            {tokenIdsMinted}/20 have been minted
           </div>
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./LW3punks/1.png" />
+          <img className={styles.image} src="./LW3punks/dawg.png" />
         </div>
       </div>
 
-      <footer className={styles.footer}>Made with &#10084; by LW3Punks</footer>
+      <footer className={styles.footer}>Made with &#10084; by Temitope O. Hassan</footer>
     </div>
   );
 }

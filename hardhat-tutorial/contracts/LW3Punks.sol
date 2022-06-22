@@ -20,7 +20,7 @@
         bool public _paused;
 
         // max number of LW3Punks
-        uint256 public maxTokenIds = 10;
+        uint256 public maxTokenIds = 20;
 
         // total number of tokenIds minted
         uint256 public tokenIds;
